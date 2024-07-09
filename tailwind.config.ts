@@ -11,6 +11,11 @@ const config: Config = {
 			primary: '#FF792E',
 			black: '#0B090A',
 			white: '#fff',
+			gray: '#F5F5F5',
+			'gray-200': '#a5a5a5',
+			blue: {
+				500: 'rgb(6 182 212)',
+			},
 		},
 		fontSize: {
 			sm: '0.8rem',

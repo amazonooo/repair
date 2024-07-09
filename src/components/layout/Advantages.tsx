@@ -3,8 +3,8 @@ import { FC } from 'react'
 
 const Advantages: FC = () => {
   return (
-		<section className='md:pt-24 pt-16 px-4 bg-[#242423]'>
-			<h1 className='uppercase text-center text-black font-extrabold text-4xl lg:pb-14 pb-9'>
+		<section className='md:pt-24 pt-16 px-4'>
+			<h1 className='uppercase text-center text-black font-extrabold text-3xl lg:pb-14 pb-9'>
 				Наши преимущества
 			</h1>
 			<div className='flex md:mx-6 2xl:mx-24 xl:mx-8 justify-between gap-5 items-center flex-col lg:flex-row'>

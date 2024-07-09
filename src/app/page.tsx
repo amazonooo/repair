@@ -1,4 +1,5 @@
 import Advantages from '@/components/layout/Advantages';
+import Footer from '@/components/layout/Footer';
 import Header from '@/components/layout/Header';
 import Help from '@/components/layout/Help';
 import Price from '@/components/layout/Price';
@@ -17,6 +18,7 @@ export default function Home() {
         <Works />
 				<Reviews />
 			</main>
+			<Footer />
 		</>
 	)
 }

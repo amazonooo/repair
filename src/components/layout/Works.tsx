@@ -1,11 +1,10 @@
 import { FC } from 'react'
+import Title from '../ui/Title'
 
 const Works: FC = () => {
   return (
 		<section className='pt-24 md:mx-6 2xl:mx-24 xl:mx-8'>
-			<h1 className='uppercase text-center text-black font-extrabold text-4xl lg:pb-14 pb-8'>
-				Наши работы
-			</h1>
+			<Title title='Наши работы' /> 
 			<div className='flex h-[914px] w-full items-center justify-center'>
 				<div className='grid h-full w-full gap-4 grid-cols-4 grid-rows-3 rounded-lg shadow-md'>
 					<div className='col-span-1 row-span-1 rounded-lg shadow-md flex items-center justify-center'>

@@ -1,12 +1,11 @@
 import { advantages, IAdvantages } from '@/data/advantages'
 import { FC } from 'react'
+import Title from '../ui/Title'
 
 const Advantages: FC = () => {
   return (
 		<section className='md:pt-24 pt-16 px-4'>
-			<h1 className='uppercase text-center text-black font-extrabold text-2xl md:text-3xl md:leading-[48px] lg:text-[3rem] lg:leading-[64px] lg:pb-14 pb-9'>
-				Наши преимущества
-			</h1>
+			<Title title='Наши преимущества' />
 			<div className='flex md:mx-6 2xl:mx-24 xl:mx-8 justify-between gap-5 items-center flex-col lg:flex-row'>
 				<div className='flex flex-col gap-12'>
 					{advantages.map(advantage => (
@@ -32,7 +31,7 @@ const Advantages: FC = () => {
 				</div>
 				<div className='lg:max-w-[680px] flex items-center justify-center'>
 					<img
-						className='lg:w-[680px] lg:pt-0 pt-9 rounded-md'
+						className='lg:w-[680px] lg:pt-0 pt-9 rounded-lg'
 						src='/advantages.png'
 						alt='header'
 					/>

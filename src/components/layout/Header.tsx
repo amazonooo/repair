@@ -14,7 +14,7 @@ const Header: FC = () => {
 					height={422}
 				/>
 			</Suspense>
-			<div className='flex flex-col md:justify-center md:ml-6 2xl:ml-24 xl:ml-8'>
+			<div className='flex flex-col md:justify-center lg:pl-6 md:ml-6 2xl:ml-24 xl:ml-8'>
 				<h1 className='md:mt-0 uppercase mt-5 text-black text-[2rem] leading-8 font-bold lg:text-[3.5rem] lg:max-w-[548px] lg:leading-[56px] md:leading-10 md:max-w-[360px] md:text-[2.5rem]'>
 					Полусухая стяжка пола
 				</h1>

@@ -2,8 +2,8 @@ import { FC } from 'react'
 
 const Price: FC = () => {
   return (
-		<section className='pt-16 md:pt-20 px-4'>
-			<h1 className='uppercase text-black text-center text-2xl font-extrabold leading-9 pb-9 lg:pb-16 md:text-4xl sm:text-3xl lg:text-5xl'>
+		<section className='pt-16 md:pt-24 px-4'>
+			<h1 className='uppercase text-black text-center text-2xl font-extrabold leading-9 pb-9 lg:pb-14 md:text-4xl sm:text-3xl lg:text-5xl'>
 				Цена
 			</h1>
 			<div className='flex flex-col gap-7 sm:justify-between md:justify-between sm:items-center sm:flex-row md:mx-6 2xl:mx-24 xl:mx-8'>

@@ -8,7 +8,7 @@ interface IButton {
 
 const Button: FC<IButton> = ({title, icon}) => {
   return (
-		<Link href='mailto:garikogannisyan.9@gmail.com' className='mt-5 bg-primary max-w-[164px] py-2.5 px-4 rounded-sm hover:brightness-105 hover:shadow-md transition-all duration-300 text-white text-center'>
+		<Link href={'#contact'} className='mt-5 bg-primary max-w-[164px] py-2.5 px-4 rounded-sm hover:brightness-105 hover:shadow-md transition-all duration-300 text-white text-center'>
 			{icon}
 			{title}
 		</Link>

@@ -13,23 +13,23 @@ const Works: FC = () => {
 					</div>
 
 					<div className='col-span-1 row-span-1 rounded-lg shadow-md flex items-center justify-center'>
-						<img className='w-full h-full' src='/bento-2.png' alt='' />
-					</div>
-
-					<div className='col-span-2 row-span-2 rounded-lg shadow-md flex items-center justify-center'>
 						<img className='w-full h-full' src='/bento-3.png' alt='' />
 					</div>
 
+					<div className='col-span-2 row-span-2 rounded-lg shadow-md flex items-center justify-center'>
+						<img className='w-full h-full' src='/bento-6.png' alt='' />
+					</div>
+
 					<div className='col-span-1 row-span-3 rounded-lg shadow-md flex items-center justify-center'>
-						<img className='w-full h-full' src='/bento-4.png' alt='' />
+						<img className='w-full h-full' src='/bento-2.png' alt='' />
 					</div>
 
 					<div className='col-span-1 row-span-1 rounded-lg shadow-md flex items-center justify-center'>
-						<img className='w-full h-full' src='/bento-5.png' alt='' />
+						<img className='w-full h-full' src='/bento-4.png' alt='' />
 					</div>
 
 					<div className='col-span-1 row-span-2 rounded-lg shadow-md flex items-center justify-center'>
-						<img className='w-full h-full' src='/bento-6.png' alt='' />
+						<img className='w-full h-full' src='/bento-5.png' alt='' />
 					</div>
 
 					<div className='col-span-2 row-span-2 rounded-lg shadow-md flex items-center justify-center'>

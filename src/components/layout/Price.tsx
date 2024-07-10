@@ -25,7 +25,7 @@ const Price: FC = () => {
 					</p>
 					<p>
 						С нашим материалом – от
-						<span className='text-primary font-bold'>550 руб</span> кв.м.
+						<span className='text-primary font-bold'> 550 руб</span> кв.м.
 					</p>
 				</div>
 			</div>

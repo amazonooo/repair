@@ -13,6 +13,7 @@ const ReviewsComment: FC = () => {
 			className='flex items-center justify-center'
 			loop={true}
 			spaceBetween={40}
+			scrollbar={{ draggable: true }}
 			breakpoints={{
 				1280: {
 					slidesPerView: 4,
@@ -47,7 +48,12 @@ const ReviewsComment: FC = () => {
 							</div>
 							<div className='md:mb-6 mb-4'>
 								<Suspense>
-									<Image width={100} height={100} src={review.stars} alt='stars' />
+									<Image
+										width={100}
+										height={100}
+										src={review.stars}
+										alt='stars'
+									/>
 								</Suspense>
 							</div>
 							<p className='leading-5 text-[.875rem] md:text-base font-medium'>

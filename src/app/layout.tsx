@@ -8,8 +8,8 @@ const manrope = Manrope({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
 	title: {
-		default: 'Repair',
-		template: '%s - Repair'
+		default: 'PROFPOL',
+		template: '%s - PROFPOL'
 	},
 	description: 'We offer you services for installing semi-dry floor screed.',
 }

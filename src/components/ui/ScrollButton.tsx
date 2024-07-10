@@ -35,7 +35,7 @@ const ScrollButton: FC = () => {
 			{isVisible && (
 				<button
 					onClick={scrollToTop}
-					className={`bg-primary text-white cursor-pointer shadow-sm shadow-black border-none p-3 sm:p-4 md:p-5 rounded-full hover:translate-y-[-5px] transition-transform duration-500 ${
+					className={`bg-primary text-white cursor-pointer shadow-sm shadow-black border-none p-3 sm:p-4 md:p-5 rounded-full ${
 						isVisible ? 'animate-fadeIn' : 'animate-fadeOut'
 					}`}
 				>

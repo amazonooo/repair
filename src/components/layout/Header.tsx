@@ -8,7 +8,7 @@ const Header: FC = () => {
 			<Suspense>
 				<Image
 					className='pointer-events-none rounded-[3px] w-full h-[422px] md:order-1 md:h-[450px] lg:h-[600px]'
-					src='/header.png'
+					src='/header.jpeg'
 					alt='header'
 					width={320}
 					height={422}

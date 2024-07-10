@@ -29,13 +29,6 @@ const Advantages: FC = () => {
 						</div>
 					))}
 				</div>
-				{/* <div className='lg:max-w-[680px] flex items-center justify-center'>
-					<img
-						className='lg:w-[680px] lg:pt-0 pt-9 rounded-lg'
-						src='/advantages.png'
-						alt='header'
-					/>
-				</div> */}
 			</div>
 		</section>
 	)

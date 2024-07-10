@@ -1,8 +1,9 @@
-import { FC } from 'react'
+import { FC, Suspense } from 'react'
 import Title from '../ui/Title'
 import { IoMdCall } from 'react-icons/io'
 import { FaWhatsapp } from 'react-icons/fa'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const Footer: FC = () => {
   return (
@@ -20,14 +21,20 @@ const Footer: FC = () => {
 							Полусухой мастер:{' '}
 						</h2>
 						<div className='mb-5 md:mb-8'>
-							<Link className='flex items-center gap-3 pb-2' href={'/'}>
-								<IoMdCall className='hover:animate-bounce ease-in-out transition-transform duration-300 w-[20px] h-[20px] md:w-[32px] md:h-[32px] text-primary' />
+							<Link
+								className='flex items-center gap-3 pb-2'
+								href='tel:+7 346 269-50-00'
+							>
+								<IoMdCall className='w-[20px] h-[20px] md:w-[32px] md:h-[32px] text-primary' />
 								<span className='text-white font-semibold text-xl leading-7'>
 									+7 346 269-50-00
 								</span>
 							</Link>
-							<Link className='flex items-center gap-3' href={'/'}>
-								<IoMdCall className='hover:animate-bounce ease-in-out transition-transform duration-300 w-[20px] h-[20px] md:w-[32px] md:h-[32px] text-primary' />
+							<Link
+								className='flex items-center gap-3'
+								href='tel:+7 919 951-71-76'
+							>
+								<IoMdCall className='w-[20px] h-[20px] md:w-[32px] md:h-[32px] text-primary' />
 								<span className='text-white font-semibold text-xl leading-7'>
 									+7 919 951-71-76
 								</span>
@@ -35,7 +42,7 @@ const Footer: FC = () => {
 						</div>
 						<div className='flex gap-5'>
 							<Link
-								href={'/'}
+								href='https://wa.me/+7(919)-951-71-76'
 								className='cursor-pointer hover:brightness-105 hover:shadow-md transition-all duration-300 bg-primary px-8 py-3 md:px-9 md:py-4 rounded-[3px] text-white'
 							>
 								<div className='flex items-center gap-2 bg-primary'>
@@ -46,14 +53,20 @@ const Footer: FC = () => {
 								</div>
 							</Link>
 							<Link
-								href={'/'}
+								href='https://www.avito.ru/user/c929478f2c60aa01486bfccbe915b13b/profile?src=sharing'
+								target='_blank'
 								className='cursor-pointer hover:brightness-105 hover:shadow-md transition-all duration-300 bg-white px-8 py-3 md:px-9 md:py-4 rounded-[3px] text-black'
 							>
 								<div className='flex items-center gap-2 justify-center bg-white md:w-[128px] w-[90px]'>
-									<img
-										src='/avito.svg'
-										className='w-[16px] h-[16px] md:w-[24px] md:h-[24px]'
-									/>
+									<Suspense>
+										<Image
+											src='/avito.svg'
+											className='w-[16px] h-[16px] md:w-[24px] md:h-[24px]'
+											alt='avito'
+											width={30}
+											height={30}
+										/>
+									</Suspense>
 									<span className='md:text-xl text-[.875rem] font-extrabold'>
 										Авито
 									</span>

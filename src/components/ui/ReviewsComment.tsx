@@ -1,8 +1,9 @@
 'use client'
 
 import { reviews } from '@/data/reviews'
+import Image from 'next/image'
 import Link from 'next/link'
-import { FC } from 'react'
+import { FC, Suspense } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/swiper-bundle.css'
 
@@ -45,7 +46,9 @@ const ReviewsComment: FC = () => {
 								<span className='text-gray-200'>{review.date}</span>
 							</div>
 							<div className='md:mb-6 mb-4'>
-								<img src={review.stars} alt='stars' />
+								<Suspense>
+									<Image width={100} height={100} src={review.stars} alt='stars' />
+								</Suspense>
 							</div>
 							<p className='leading-5 text-[.875rem] md:text-base font-medium'>
 								{review.comment}

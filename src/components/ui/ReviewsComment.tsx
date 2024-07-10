@@ -38,7 +38,7 @@ const ReviewsComment: FC = () => {
 			<div className=''>
 				{reviews.map(review => (
 					<SwiperSlide key={review.id}>
-						<div className='relative rounded-lg p-7 flex flex-col bg-gray w-full sm:min-h-[290px] h-[259px]'>
+						<div className='select-none relative rounded-lg p-7 flex flex-col bg-gray w-full sm:min-h-[290px] h-[259px]'>
 							<div className='flex justify-between mb-1'>
 								<h2 className='font-extrabold'>{review.name}</h2>
 								<span className='text-gray-200'>{review.date}</span>
@@ -46,7 +46,9 @@ const ReviewsComment: FC = () => {
 							<div className='md:mb-6 mb-4'>
 								<img src={review.stars} alt='stars' />
 							</div>
-							<p className='leading-5 text-[.875rem] md:text-base font-medium'>{review.comment}</p>
+							<p className='leading-5 text-[.875rem] md:text-base font-medium'>
+								{review.comment}
+							</p>
 							<Link
 								className='text-gray-200 underline underline-offset-4 absolute bottom-6 hover:text-blue-500 transition-colors duration-300'
 								href={

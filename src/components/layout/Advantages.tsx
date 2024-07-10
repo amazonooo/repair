@@ -6,8 +6,8 @@ const Advantages: FC = () => {
   return (
 		<section className='md:pt-24 pt-16 px-4'>
 			<Title title='Наши преимущества' />
-			<div className='flex md:mx-6 2xl:mx-24 xl:mx-8 justify-between gap-5 items-center flex-col lg:flex-row'>
-				<div className='flex flex-col gap-12'>
+			<div className='flex pt-4 md:mx-6 2xl:mx-24 xl:mx-8 justify-center gap-5 items-center flex-col lg:flex-row'>
+				<div className='flex lg:flex-row flex-col gap-12'>
 					{advantages.map(advantage => (
 						<div className=''>
 							<div
@@ -29,13 +29,13 @@ const Advantages: FC = () => {
 						</div>
 					))}
 				</div>
-				<div className='lg:max-w-[680px] flex items-center justify-center'>
+				{/* <div className='lg:max-w-[680px] flex items-center justify-center'>
 					<img
 						className='lg:w-[680px] lg:pt-0 pt-9 rounded-lg'
 						src='/advantages.png'
 						alt='header'
 					/>
-				</div>
+				</div> */}
 			</div>
 		</section>
 	)

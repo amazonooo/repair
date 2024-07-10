@@ -6,17 +6,17 @@ import Link from 'next/link'
 
 const Footer: FC = () => {
   return (
-		<div className='overflow-x-hidden pt-16 md:pt-24 flex flex-col items-center justify-center lg:mx-6 2xl:mx-24 xl:mx-8'>
+		<div className='overflow-x-hidden pt-16 md:pt-24 flex flex-col items-center justify-center '>
 			<Title title='Контакты' />
 			<footer id='contact' className=''>
 				<div
 					style={{
 						backgroundImage: 'url(./footer.png)',
 					}}
-					className='bg-no-repeat bg-cover bg-top w-full h-[302px]'
+					className='bg-no-repeat bg-cover bg-top w-full lg:h-[440px] h-[302px]'
 				>
 					<div className='flex flex-col items-center w-screen justify-center h-full'>
-						<h2 className='mb-4 md:mb-9 md:text-3xl lg:text-[3.5rem] text-2xl font-extrabold text-white leading-8'>
+						<h2 className='mb-4 md:mb-9 md:text-[2.5rem] sm:text-[2rem] lg:text-[3rem] text-2xl font-extrabold text-white leading-8'>
 							Полусухой мастер:{' '}
 						</h2>
 						<div className='mb-5 md:mb-8'>
@@ -49,7 +49,7 @@ const Footer: FC = () => {
 								href={'/'}
 								className='cursor-pointer hover:brightness-105 hover:shadow-md transition-all duration-300 bg-white px-8 py-3 md:px-9 md:py-4 rounded-lg text-black'
 							>
-								<div className='flex items-center gap-2 bg-white'>
+								<div className='flex items-center gap-2 justify-center bg-white md:w-[128px] w-[90px]'>
 									<img
 										src='/avito.svg'
 										className='w-[16px] h-[16px] md:w-[24px] md:h-[24px]'

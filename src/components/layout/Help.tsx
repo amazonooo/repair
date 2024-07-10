@@ -9,7 +9,9 @@ const Help: FC = () => {
 
   return (
 		<section className='pt-16 md:pt-24 flex flex-col items-center justify-center'>
-			<h1 className='uppercase text-center text-black font-extrabold text-2xl lg:pb-14 pb-9 md:text-3xl md:leading-[48px] lg:text-[3rem] lg:leading-[64px]'>
+			<h1 style={{
+				fontFamily: 'Gunterz'
+			}} className='uppercase text-center text-black font-medium text-2xl lg:pb-14 pb-9 md:text-3xl md:leading-[48px] lg:text-[3rem] lg:leading-[64px]'>
 				Нужна помощь
 				<br /> с расчётом?
 			</h1>
@@ -26,7 +28,7 @@ const Help: FC = () => {
 					</h1>
 					<div className='flex pt-5 gap-5'>
 						<Link
-							className='cursor-pointer hover:brightness-105 hover:shadow-md transition-all duration-300 bg-primary px-8 py-3 md:px-9 md:py-4 rounded-lg text-white'
+							className='cursor-pointer hover:brightness-105 hover:shadow-md transition-all duration-300 bg-primary px-8 py-3 md:px-9 md:py-4 rounded-[3px] text-white'
 							href='tel:+7 919 951-71-76'
 						>
 							<div className='flex items-center gap-2'>
@@ -35,7 +37,7 @@ const Help: FC = () => {
 							</div>
 						</Link>
 						<Link
-							className='cursor-pointer hover:brightness-105 hover:shadow-md transition-all duration-300 bg-white px-8 py-3 md:px-9 md:py-4 rounded-lg text-primary'
+							className='cursor-pointer hover:brightness-105 hover:shadow-md transition-all duration-300 bg-white px-8 py-3 md:px-9 md:py-4 rounded-[3px] text-primary'
 							href='tel:+7 919 951-71-76'
 						>
 							<div className='flex items-center gap-2'>

@@ -10,7 +10,7 @@ const Price: FC = () => {
 					<img
 						src='/price.jpg'
 						alt='price-img'
-						className='rounded-lg sm:h-[500px] md:h-[653px] h-[230px] w-full md:w-[750px]'
+						className='rounded-[3px] sm:h-[500px] md:h-[653px] h-[230px] w-full md:w-[750px]'
 					/>
 				</div>
 				<div className='text-[.875rem] leading-[15px] sm:leading-[25px] sm:text-xl font-medium flex flex-col gap-4 lg:text-2xl lg:gap-9 lg:max-w-[475px]'>

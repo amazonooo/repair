@@ -16,7 +16,7 @@ const Footer: FC = () => {
 					className='bg-no-repeat bg-cover bg-top w-full lg:h-[440px] h-[302px]'
 				>
 					<div className='flex flex-col items-center w-screen justify-center h-full'>
-						<h2 className='mb-4 md:mb-9 md:text-[2.5rem] sm:text-[2rem] lg:text-[3rem] text-2xl font-extrabold text-white leading-8'>
+						<h2 className='mb-4 md:mb-9 md:text-[2.5rem] sm:text-[2rem] lg:text-[3.5rem] text-2xl font-medium text-white leading-8'>
 							Полусухой мастер:{' '}
 						</h2>
 						<div className='mb-5 md:mb-8'>
@@ -36,7 +36,7 @@ const Footer: FC = () => {
 						<div className='flex gap-5'>
 							<Link
 								href={'/'}
-								className='cursor-pointer hover:brightness-105 hover:shadow-md transition-all duration-300 bg-primary px-8 py-3 md:px-9 md:py-4 rounded-lg text-white'
+								className='cursor-pointer hover:brightness-105 hover:shadow-md transition-all duration-300 bg-primary px-8 py-3 md:px-9 md:py-4 rounded-[3px] text-white'
 							>
 								<div className='flex items-center gap-2 bg-primary'>
 									<FaWhatsapp className='w-[16px] h-[16px] md:w-[24px] md:h-[24px]' />
@@ -47,7 +47,7 @@ const Footer: FC = () => {
 							</Link>
 							<Link
 								href={'/'}
-								className='cursor-pointer hover:brightness-105 hover:shadow-md transition-all duration-300 bg-white px-8 py-3 md:px-9 md:py-4 rounded-lg text-black'
+								className='cursor-pointer hover:brightness-105 hover:shadow-md transition-all duration-300 bg-white px-8 py-3 md:px-9 md:py-4 rounded-[3px] text-black'
 							>
 								<div className='flex items-center gap-2 justify-center bg-white md:w-[128px] w-[90px]'>
 									<img

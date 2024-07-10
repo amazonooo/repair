@@ -39,7 +39,7 @@ const ReviewsComment: FC = () => {
 			<div className=''>
 				{reviews.map(review => (
 					<SwiperSlide key={review.id}>
-						<div className='relative rounded-lg p-7 flex flex-col bg-gray w-full sm:min-h-[290px] h-[259px]'>
+						<div className='relative rounded-[3px] p-7 flex flex-col bg-gray w-full sm:min-h-[290px] h-[259px]'>
 							<div className='flex justify-between mb-1'>
 								<h2 className='font-extrabold'>{review.name}</h2>
 								<span className='text-gray-200'>{review.date}</span>

@@ -5,3 +5,11 @@
 html {
   scroll-behavior: smooth;
 }
+
+@font-face {
+  font-family: 'Gunterz';
+  src: url('/fonts/Gunterz-Medium.otf') format('woff2'),
+    url('/fonts/Gunterz-Medium.otf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

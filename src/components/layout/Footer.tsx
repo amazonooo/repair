@@ -17,7 +17,7 @@ const Footer: FC = () => {
 					className='bg-no-repeat bg-cover bg-top w-full lg:h-[440px] h-[302px]'
 				>
 					<div className='flex flex-col items-center w-screen justify-center h-full'>
-						<h2 className='mb-4 md:mb-9 md:text-[2.5rem] sm:text-[2rem] lg:text-[3.5rem] text-2xl font-medium text-white leading-8'>
+						<h2 className='mb-4 md:mb-10 md:text-[2.5rem] sm:text-[2rem] lg:text-[3.5rem] text-2xl font-medium text-white leading-8'>
 							Полусухой мастер:{' '}
 						</h2>
 						<div className='mb-5 md:mb-8'>

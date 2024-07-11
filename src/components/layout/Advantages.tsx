@@ -1,11 +1,14 @@
 import { advantages } from '@/data/advantages'
 import { FC } from 'react'
-import Title from '../ui/Title'
 
 const Advantages: FC = () => {
   return (
 		<section className='md:pt-24 pt-16 px-4'>
-			<Title title='Наши преимущества' />
+			<h1 style={{
+				fontFamily: 'Gunterz'
+			}} className='uppercase text-center font-medium text-black text-2xl md:text-3xl md:leading-[48px] lg:text-[3rem] lg:leading-[64px] lg:mb-10 mb-4'>
+				Наши<br className='md:hidden lg:hidden xl:hidden 2xl:hidden' /> преимущества
+			</h1>
 			<div className='flex pt-4 md:mx-6 2xl:mx-24 xl:mx-8 justify-center gap-5 items-center flex-col lg:flex-row'>
 				<div className='flex lg:flex-row flex-col gap-12'>
 					{advantages.map(advantage => (

@@ -6,7 +6,7 @@ const Price: FC = () => {
   return (
 		<section className='pt-16 md:pt-24 px-4 lg:px-0'>
 			<Title title='Цена' />
-			<div className='flex flex-col gap-7 lg:gap-44 justify-center md:items-center md:flex-row md:mx-6 2xl:mx-24 xl:mx-8'>
+			<div className='flex flex-col gap-4 lg:gap-44 justify-center md:items-center md:flex-row md:mx-6 2xl:mx-24 xl:mx-8'>
 				<div>
 					<Image
 						src='/price.jpg'

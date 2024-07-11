@@ -5,10 +5,10 @@ const Header: FC = () => {
   return (
 		<header className='px-5 py-16 sm:px-10 md:px-14 lg:p-24 flex flex-col items-center justify-center overflow-hidden'>
 			<div className='relative flex flex-col items-center justify-center h-full w-full py-14'>
-				<div className='absolute w-[1155px] sm:w-[1230px] md:w-[1260px] lg:w-[1490px] h-[.1px] rotate-90 -left-[575px] sm:-left-[613px] md:-left-[628px] lg:-left-[743px] top-0 bg-gray-200'></div>
-				<div className='absolute w-[2520px] h-[1px] bottom-0 bg-gray-200'></div>
-				<div className='absolute w-[1155px] sm:w-[1230px] md:w-[1260px] lg:w-[1490px] h-[.1px] rotate-90 -right-[578px] sm:-right-[615px] md:-right-[630px] lg:-right-[745px] top-0 bg-gray-200'></div>
-				<div className='absolute w-[2520px] h-[1px] top-0 bg-gray-200'></div>
+				<div className='absolute w-[1155px] sm:w-[1230px] md:w-[1260px] lg:w-[1490px] h-[.1px] rotate-90 -left-[575px] sm:-left-[613px] md:-left-[628px] lg:-left-[743px] top-0 bg-black'></div>
+				<div className='absolute w-[2520px] h-[1px] bottom-0 bg-black'></div>
+				<div className='absolute w-[1155px] sm:w-[1230px] md:w-[1260px] lg:w-[1490px] h-[.1px] rotate-90 -right-[578px] sm:-right-[615px] md:-right-[630px] lg:-right-[745px] top-0 bg-black'></div>
+				<div className='absolute w-[2520px] h-[1px] top-0 bg-black'></div>
 
 				<div className='absolute w-4 h-4 bg-primary -top-2 -left-1.5'></div>
 				<div className='absolute w-4 h-4 bg-primary -bottom-2 -left-1.5'></div>
@@ -19,10 +19,10 @@ const Header: FC = () => {
 					style={{
 						fontFamily: 'Gunterz',
 					}}
-					className='uppercase mr-14 lg:mr-24 relative pb-16 md:pb-24 lg:pb-28 text-xl md:text-2xl md:leading-[54px] lg:text-[1.5rem] lg:leading-[50px]'
+					className='uppercase mr-14 lg:mr-24 relative pb-6 md:pb-20 lg:pb-24 text-base md:text-2xl md:leading-[54px] lg:text-[1.5rem] lg:leading-[50px]'
 				>
 					Prof{' '}
-					<span className='absolute text-primary top-[19%] left-16 md:top-[14%] md:left-20 lg:left-20 lg:top-[13%]'>
+					<span className='absolute text-primary top-[15%] left-13 md:top-[14%] md:left-20 lg:left-20 lg:top-[13%]'>
 						Pol
 					</span>
 				</h1>

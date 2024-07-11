@@ -6,6 +6,9 @@ import Link from 'next/link'
 import { FC, Suspense } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/swiper-bundle.css'
+import 'swiper/css/scrollbar'
+import { Scrollbar } from 'swiper/modules'
+
 
 const ReviewsComment: FC = () => {
   return (
@@ -13,7 +16,10 @@ const ReviewsComment: FC = () => {
 			className='flex items-center justify-center'
 			loop={true}
 			spaceBetween={40}
-			scrollbar={{ draggable: true }}
+			scrollbar={{
+				hide: false,
+			}}
+			modules={[Scrollbar]}
 			breakpoints={{
 				1280: {
 					slidesPerView: 4,

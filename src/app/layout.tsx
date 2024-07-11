@@ -8,10 +8,11 @@ const manrope = Manrope({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
 	title: {
-		default: 'PROFPOL',
-		template: '%s - PROFPOL'
+		default: 'ProfPol',
+		template: '%s - PROFPOL',
 	},
-	description: 'We offer you services for installing semi-dry floor screed.',
+	description: 'Предлагаем Вам услуги по устройству полусухой стяжки пола.',
+	keywords: 'Стяжка пола, Полусухая стяжка пола',
 }
 
 export default function RootLayout({

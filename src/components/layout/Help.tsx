@@ -31,7 +31,7 @@ const Help: FC = () => {
 					</h1>
 					<div className='flex pt-5 gap-5'>
 						<Link
-							className='cursor-pointer hover:brightness-105 hover:shadow-md transition-all duration-300 bg-primary px-8 py-3 md:px-9 md:py-4 rounded-[3px] text-white'
+							className='cursor-pointer hover:brightness-105 hover:shadow-md transition-all duration-300 bg-primary px-5 py-3 md:px-9 md:py-4 rounded-[3px] text-white'
 							href='https://wa.me/+7(919)-951-71-76'
 						>
 							<div className='flex items-center gap-2'>
@@ -40,7 +40,7 @@ const Help: FC = () => {
 							</div>
 						</Link>
 						<Link
-							className='cursor-pointer hover:brightness-105 hover:shadow-md transition-all duration-300 bg-white px-8 py-3 md:px-9 md:py-4 rounded-[3px] text-primary'
+							className='cursor-pointer hover:brightness-105 hover:shadow-md transition-all duration-300 bg-white px-5 py-3 md:px-9 md:py-4 rounded-[3px] text-primary'
 							href='tel:+7 919 951-71-76'
 						>
 							<div className='flex items-center gap-2'>

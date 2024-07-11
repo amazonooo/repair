@@ -1,4 +1,4 @@
-import { advantages, IAdvantages } from '@/data/advantages'
+import { advantages } from '@/data/advantages'
 import { FC } from 'react'
 import Title from '../ui/Title'
 

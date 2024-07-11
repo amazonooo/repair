@@ -1,18 +1,17 @@
-import Image from 'next/image'
-import { FC, Suspense } from 'react'
+import { FC } from 'react'
 import Button from '../ui/Button'
 
 const Header: FC = () => {
   return (
-		<header className='pt-11 flex flex-col items-center justify-center'>
+		<header className='pt-7 lg:pt-10 flex flex-col items-center justify-center'>
 			<h1
 				style={{
 					fontFamily: 'Gunterz',
 				}}
-				className='uppercase mr-14 lg:mr-20 relative pb-16 md:pb-24 lg:pb-28 text-3xl md:text-4xl md:leading-[54px] lg:text-[3.5rem] lg:leading-[70px]'
+				className='uppercase mr-14 lg:mr-24 relative pb-16 md:pb-24 lg:pb-28 text-3xl md:text-4xl md:leading-[54px] lg:text-[3.5rem] lg:leading-[70px]'
 			>
 				Prof{' '}
-				<span className='absolute text-primary top-[24%] left-[6rem] md:top-[24%] md:left-[7.6rem] lg:top-[30%] lg:left-[10.8rem] xl:left-[10.8rem] xl:top-[30%]'>
+				<span className='absolute text-primary top-[24%] left-[6rem] md:top-[22%] md:left-[7.6rem] lg:top-[25%] lg:left-[10.8rem] xl:left-[10.8rem] xl:top-[25%]'>
 					Pol
 				</span>
 			</h1>

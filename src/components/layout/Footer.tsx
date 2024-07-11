@@ -7,9 +7,9 @@ import Image from 'next/image'
 
 const Footer: FC = () => {
   return (
-		<div className='overflow-x-hidden pt-16 md:pt-24 flex flex-col items-center justify-center '>
+		<footer id='contact' className='overflow-x-hidden pt-16 md:pt-24 flex flex-col items-center justify-center '>
 			<Title title='Контакты' />
-			<footer id='contact' className=''>
+			<div>
 				<div
 					style={{
 						backgroundImage: 'url(./footer.png)',
@@ -43,7 +43,7 @@ const Footer: FC = () => {
 						<div className='flex gap-5'>
 							<Link
 								href='https://wa.me/+7(919)-951-71-76'
-								className='cursor-pointer hover:brightness-105 hover:shadow-md transition-all duration-300 bg-primary px-8 py-3 md:px-9 md:py-4 rounded-[3px] text-white'
+								className='cursor-pointer hover:brightness-105 hover:shadow-md transition-all duration-300 bg-primary px-5 py-3 md:px-9 md:py-4 rounded-[3px] text-white'
 							>
 								<div className='flex items-center gap-2 bg-primary'>
 									<FaWhatsapp className='w-[16px] h-[16px] md:w-[24px] md:h-[24px]' />
@@ -55,7 +55,7 @@ const Footer: FC = () => {
 							<Link
 								href='https://www.avito.ru/user/c929478f2c60aa01486bfccbe915b13b/profile?src=sharing'
 								target='_blank'
-								className='cursor-pointer hover:brightness-105 hover:shadow-md transition-all duration-300 bg-white px-8 py-3 md:px-9 md:py-4 rounded-[3px] text-black'
+								className='cursor-pointer hover:brightness-105 hover:shadow-md transition-all duration-300 bg-white px-5 py-3 md:px-9 md:py-4 rounded-[3px] text-black'
 							>
 								<div className='flex items-center gap-2 justify-center bg-white md:w-[128px] w-[90px]'>
 									<Suspense>
@@ -75,8 +75,8 @@ const Footer: FC = () => {
 						</div>
 					</div>
 				</div>
-			</footer>
-		</div>
+			</div>
+		</footer>
 	)
 }
 

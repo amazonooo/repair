@@ -1,5 +1,4 @@
 import { FC } from 'react'
-import Slider from '../ui/Slider'
 import ReviewsComment from '../ui/ReviewsComment'
 import Title from '../ui/Title'
 

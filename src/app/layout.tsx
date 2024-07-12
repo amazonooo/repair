@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 		template: '%s - PROFPOL',
 	},
 	description: 'Предлагаем Вам услуги по устройству полусухой стяжки пола.',
-	keywords: 'Стяжка пола, Полусухая стяжка пола',
+	keywords: 'Стяжка пола, Полусухая стяжка пола, в Сургуте',
 }
 
 export default function RootLayout({

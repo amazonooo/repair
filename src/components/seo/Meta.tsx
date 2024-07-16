@@ -13,6 +13,23 @@ const Meta: FC<PropsWithChildren<IMeta>> = ({title, description, children}) => {
 						<meta name='desciption' content={description} />
 						<meta name='og:title' content={getTitle(title)} />
 						<meta name='og:desciption' content={description} />
+						<script
+							type='application/ld+json'
+							dangerouslySetInnerHTML={{
+								__html: JSON.stringify({
+									'@context': 'https://schema.org',
+									'@type': 'Organization',
+									name: 'ProfPol',
+									url: 'https://profpol.online',
+									logo: 'https://profpol.online/images/logo.png',
+									sameAs: [
+										'https://www.facebook.com/profpol',
+										'https://www.twitter.com/profpol',
+										'https://www.instagram.com/profpol',
+									],
+								}),
+							}}
+						/>
 					</>
 				) : (
 					<>
@@ -20,7 +37,7 @@ const Meta: FC<PropsWithChildren<IMeta>> = ({title, description, children}) => {
 					</>
 				)}
 			</Head>
-      {children}
+			{children}
 		</>
 	)
 }

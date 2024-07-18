@@ -53,7 +53,7 @@ const Footer: FC = () => {
 								</div>
 							</Link>
 							<Link
-								href='https://www.avito.ru/user/c929478f2c60aa01486bfccbe915b13b/profile?src=sharing'
+								href='https://www.avito.ru/user/46b9bdc3967570f20b1ef3b695127d9f/profile?src=sharing'
 								target='_blank'
 								className='cursor-pointer hover:brightness-105 hover:shadow-md transition-all duration-300 bg-white px-5 py-3 md:px-9 md:py-4 rounded-[3px] text-black'
 							>

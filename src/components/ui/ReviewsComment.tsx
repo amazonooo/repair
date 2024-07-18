@@ -68,7 +68,7 @@ const ReviewsComment: FC = () => {
 							<Link
 								className='text-gray-200 underline underline-offset-4 absolute bottom-6 hover:text-blue-500 transition-colors duration-300'
 								href={
-									'https://www.avito.ru/user/c929478f2c60aa01486bfccbe915b13b/profile?src=sharing'
+									'https://www.avito.ru/user/46b9bdc3967570f20b1ef3b695127d9f/profile?src=sharing'
 								}
 								target='_blank'
 							>

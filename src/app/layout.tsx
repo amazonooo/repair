@@ -12,6 +12,9 @@ export const metadata: Metadata = {
 		default: 'ProfPol',
 		template: '%s - PROFPOL',
 	},
+	alternates: {
+    canonical: new URL('https://profpol.online'),
+  },
 	openGraph: {
 		description: 'Услуги по полусухой стяжке пола по всему ХМАО.',
 		images: 'https://profpol.online/images/og-image.jpg',

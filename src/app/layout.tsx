@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 		description: 'Услуги по полусухой стяжке пола по всему ХМАО.',
 		images: 'https://profpol.online/images/og-image.jpg',
 	},
-	description: 'Предлагаем Вам услуги по устройству полусухой стяжки пола.',
+	description: 'Услуги по устройству полусухой стяжки пола',
 	keywords: [
 		'Стяжка пола',
 		'Полусухая стяжка пола',

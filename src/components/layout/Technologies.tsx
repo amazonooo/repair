@@ -19,7 +19,7 @@ const Technologies: FC = () => {
 							<h2 className='text-xs sm:text-base md:text-xl'>{tech.title}</h2>
 							<div
 								key={tech.id}
-								className='relative bg-cover bg-center bg-no-repeat w-[160px] sm:w-[200px] h-[200px] md:w-[250px] lg:w-[300px] xl:w-[350px] md:h-[250px] lg:h-[350px] flex items-center justify-center group'
+								className='relative bg-cover bg-center bg-no-repeat w-[160px] sm:w-[200px] h-[200px] md:w-[250px] lg:w-[300px] xl:w-[350px] md:h-[250px] lg:h-[350px] flex items-center justify-center group rounded-[3px]'
 								style={{
 									backgroundImage: `url(${tech.image})`,
 								}}

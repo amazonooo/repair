@@ -12,9 +12,8 @@ const Advantages: FC = () => {
 			<div className='flex pt-4 md:mx-6 2xl:mx-24 xl:mx-8 justify-center gap-5 items-center flex-col lg:flex-row'>
 				<div className='grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-16'>
 					{advantages.map(advantage => (
-						<div className=''>
+						<div key={advantage.id}>
 							<div
-								key={advantage.id}
 								className='flex flex-col lg:flex-row lg:items-start lg:justify-start gap-2.5 md:gap-4 lg:gap-5 items-center justify-center'
 							>
 								<div className='min-w-12 min-h-12 md:min-w-14 md:min-h-14 lg:min-h-16 lg:min-w-16 bg-primary flex items-center justify-center rounded-full md:text-4xl text-3xl text-white'>

@@ -38,7 +38,7 @@ const Header: FC = () => {
 						<br className='md:hidden' /> пола
 					</h1>
 					<p className='sm:text-base mt-4 md:max-w-[608px] max-w-[280px] md:leading-7 md:text-xl lg:text-2xl lg:leading-7'>
-						Мы предлагаем услуги по устройству полусухой стяжки пола,
+						Услуги по устройству полусухой стяжки пола в Сургуте и ХМАО,
 						выполненной механизированным способом по немецкой технологии
 					</p>
 					<Button title='Связаться' />

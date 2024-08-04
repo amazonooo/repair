@@ -83,7 +83,7 @@ export const metadata: Metadata = {
 		'пол стяжка ХМАО',
 		'стяжка ХМАО',
 		'стяжка Сургут',
-		'profpol сугрут',
+		'profpol сургут',
 		'profpol цены',
 		'profpol услуги',
 		'profpol полы',

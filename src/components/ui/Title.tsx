@@ -10,7 +10,7 @@ const Title: FC<ITitle> = ({ title }) => {
 			style={{
 				fontFamily: 'Gunterz',
 			}}
-			className='uppercase text-center font-medium text-black text-2xl md:text-3xl md:leading-[48px] lg:text-[3rem] lg:leading-[64px] lg:mb-10 mb-4'
+			className='uppercase text-center font-medium text-black text-xl md:text-3xl md:leading-[48px] lg:text-[3rem] lg:leading-[64px] lg:mb-10 mb-4'
 		>
 			{title}
 		</h1>

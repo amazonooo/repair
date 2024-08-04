@@ -13,7 +13,7 @@ const Help: FC = () => {
 				style={{
 					fontFamily: 'Gunterz',
 				}}
-				className='uppercase text-center text-black font-medium text-2xl lg:mb-10 mb-4 md:text-3xl md:leading-[48px] lg:text-[3rem] lg:leading-[64px]'
+				className='uppercase text-center text-black font-medium text-xl lg:mb-10 mb-4 md:text-3xl md:leading-[48px] lg:text-[3rem] lg:leading-[64px]'
 			>
 				Нужна помощь
 				<br /> с расчётом?

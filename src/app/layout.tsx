@@ -13,13 +13,13 @@ export const metadata: Metadata = {
 		template: '%s - PROFPOL',
 	},
 	alternates: {
-    canonical: new URL('https://profpol.online'),
-  },
+		canonical: new URL('https://profpol.online'),
+	},
 	openGraph: {
 		description: 'Услуги по полусухой стяжке пола по всему ХМАО.',
 		images: 'https://profpol.online/images/og-image.jpg',
 	},
-	description: 'Услуги по устройству полусухой стяжки пола',
+	description: 'Услуги по устройству полусухой стяжки пола в Сургуте и по всему ХМАО',
 	keywords: [
 		'Стяжка пола',
 		'Полусухая стяжка пола',

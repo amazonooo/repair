@@ -123,6 +123,10 @@ export default function RootLayout({
   return (
 		<html lang='en'>
 			<head>
+				<meta
+					name='google-site-verification'
+					content='P1KrX2wMaM-1OHzgynJCl_g9_qBoZMMPTw6_FOH-99Y'
+				/>
 				<link rel='icon' href='/logo.png' sizes='any' />
 			</head>
 			<body className={manrope.className}>

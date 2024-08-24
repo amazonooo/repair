@@ -1,5 +1,6 @@
 import { FC } from 'react'
 import Button from '../ui/Button'
+import Image from 'next/image'
 
 const Header: FC = () => {
   return (
@@ -15,7 +16,7 @@ const Header: FC = () => {
 				<div className='absolute w-4 h-4 bg-primary -top-2 -right-2'></div>
 				<div className='absolute w-4 h-4 bg-primary -bottom-2 -right-2'></div>
 
-				<h1
+				{/* <h1
 					style={{
 						fontFamily: 'Gunterz',
 					}}
@@ -25,7 +26,14 @@ const Header: FC = () => {
 					<span className='absolute text-primary top-[24%] left-13 sm:top-[17%] sm:left-13 md:top-[14%] md:left-20 lg:left-20 lg:top-[13%]'>
 						Pol
 					</span>
-				</h1>
+				</h1> */}
+				<Image
+					className='mb-8 md:mb-24 sm:mb-16 h-12 w-28 sm:w-36'
+					src={'/logo.jpg'}
+					alt='logo'
+					width={30}
+					height={30}
+				/>
 				<div className='flex flex-col items-center text-center justify-center'>
 					<h1
 						style={{
